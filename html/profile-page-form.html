@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html page-id="profile-page-form">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change profile</title>
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Baloo Bhaijaan 2'>
+    <link rel="stylesheet" href="../css/persistent.css" type="text/css">
+    <link rel="stylesheet" href="../css/profile-page.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        type="text/css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="wrapper">
+            <div class="header-container">
+                <div class="logo-container">
+                    <a href=""><img src="../assets/logo-icon.png" alt="LogoHome" class="logo-icon"></a>
+                </div>
+                <nav class="navbar">
+                    <ul class="nav-list">
+                        <!--Homepage-->
+                        <li class="nav-item"><a href="homepage.html">Home</a></li>
+                        <!--All courses section-->
+                        <li class="nav-item"><a href="./homepage.html#all-courses">Courses</a></li>
+                        <!--Admin-->
+                        <li class="nav-item"><a href="admin.html">Admin</a></li>
+                        <!--Footer section-->
+                        <li class="nav-item"><a href="#footer-contacts">Contacts</a></li>
+                    </ul>
+                </nav>
+                <div class="user-menu">
+                    <ul class="user-menu-list">
+                        <li><i class="bi bi-search fa-lg"></i></li>
+                        <!--Shopping cart page-->
+                        <li><i class="bi bi-cart-check-fill  fa-lg"></i></li>
+                        <!--Login/register form-->
+                        <li><i class="bi bi-person-fill  fa-lg"></i></li>
+                        <!--Burger menu for mobile resolutions-->
+                        <li class="burger"><i class="bi bi-list  fa-2x"></i></li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+        <div class="search-bar" id="search-bar-float">
+            <div class="search-container">
+                <input class="search-field form-input-box" type="text">
+                <div class="result-container">
+                    <div class="result-list">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="main-profile-page form-background-forms">
+        <section class="section">
+            <div class="user-profile">
+                <div class="wrapper profile-form">
+                    <form action="#" class="profile-container">
+
+                    </form>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div class="footer" id="footer-contacts">
+        <div class="footer-container">
+            <div class="footer-body">
+                <div class="footer-body-container">
+                    <div class="footer-section">
+                        <h3 class="footer-section-title">Provided services</h3>
+                        <a href="#main-courses">
+                            <h4 class="footer-text">Courses</h4>
+                        </a>
+                        <a href="">
+                            <h4 class="footer-text">Registration</h4>
+                        </a>
+                        <a href="">
+                            <h4 class="footer-text">Admin</h4>
+                        </a>
+
+                    </div>
+                    <div class="footer-section">
+                        <h3 class="footer-section-title">Social Media</h3>
+                        <a href="">
+                            <h4 class="footer-text">Instagram</h4>
+                        </a>
+                        <a href="">
+                            <h4 class="footer-text">Twitter</h4>
+                        </a>
+                        <a href="">
+                            <h4 class="footer-text">Facebook</h4>
+                        </a>
+                        <a href="">
+                            <h4 class="footer-text">Github</h4>
+                        </a>
+
+                    </div>
+                </div>
+                <div class="footer-contacts">
+                    <img src="../assets/logo-icon.png" alt="Logo" class="logo-icon">
+                    <h3 class="footer-section-title">Define online programing courses</h3>
+                    <h4 class="footer-text"><span class="text-breakpoint">Stevana Stevana 21</span>&nbsp;&nbsp;&nbsp;
+                        <span class="text-breakpoint">21000 Novi Sad</span>
+                    </h4>
+                    <h4 class="footer-text"> <span class="text-breakpoint">+381 21 123 4567</span> <span
+                            class="text-breakpoint">+381 65 123 3456</span>
+                    </h4>
+                    <h4 class="footer-text"> random.email@email.com</h4>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <h6 class="copyright">Copyright 2021 Define ©</h6>
+            </div>
+        </div>
+    </div>
+    <!--LOGIN works on click-->
+    <div id="float-form-login" class="float-form-login">
+        <div class="login-container">
+            <div class="login-header">
+                <h2 class="login-form-name">
+                    DEFINE
+                </h2>
+                <h3 class="login-form-statement">
+                    Log into your account
+                </h3>
+            </div>
+            <form action="#" class="login-form">
+                <div class="login-box-container">
+                    <div class="login-box">
+                        <label for="#email-box" class="form-label-box">Email</label>
+                        <input id="email-box" type="email" name="email" placeholder="Enter your email adress" value=""
+                            class="form-input-box">
+                    </div>
+                </div>
+                <div class="login-box-container">
+                    <div class="login-box">
+                        <label for="#password-box" class="form-label-box">Password</label>
+                        <input id="password-box" type="password" name="pswd" placeholder="Enter your password" value=""
+                            class="form-input-box">
+                    </div>
+                </div>
+                <div class="double-box-container">
+                    <div class="register-box centered-box">
+                        <button type="submit" class="button special-button">Submit</button>
+                    </div>
+                    <div class="register-box centered-box">
+                        <button type="button" class="button special-button js-cancel-button"
+                            id="cancel-log-btn">Cancel</button>
+                    </div>
+                </div>
+            </form>
+            <div class="login-footer">
+                <h4 class="login-footer-statement">Not yet registered? <span id="register-btn">Create
+                        account<span></h4>
+            </div>
+
+        </div>
+    </div>
+    <!--REGISTER works on click-->
+    <div id="float-form-register" class="float-form-register">
+        <div class="register-container">
+            <div class="login-header">
+                <h2 class="login-form-name">
+                    DEFINE
+                </h2>
+                <h3 class="login-form-statement">
+                    Register your account
+                </h3>
+            </div>
+            <form action="#" class="register-form">
+                <div class="register-box-container">
+                    <div class="double-box-container">
+                        <div class="register-box">
+                            <label for="username-reg-box" class="form-label-box">Username</label>
+                            <input id="username-reg-box" type="text" name="uname" placeholder="Your username?" value=""
+                                class="form-input-box">
+                        </div>
+                        <div class="register-box">
+                            <label for="password-reg-box" class="form-label-box">Password</label>
+                            <input id="password-reg-box" type="password" name="pswd" placeholder="Your password?"
+                                value="" class="form-input-box">
+                        </div>
+                    </div>
+                    <div class="double-box-container">
+                        <div class="register-box">
+                            <label for="#email-reg-box" class="form-label-box">Email</label>
+                            <input id="email-reg-box" type="email" name="email" placeholder="Your email adress?"
+                                value="" class="form-input-box">
+                        </div>
+                    </div>
+                    <div class="double-box-container">
+                        <div class="register-box">
+                            <label for="name-reg-box" class="form-label-box">Name</label>
+                            <input id="name-reg-box" type="text" name="fname" placeholder="Your name?" value=""
+                                class="form-input-box">
+                        </div>
+                        <div class="register-box">
+                            <label for="lastname-reg-box" class="form-label-box">Last name</label>
+                            <input id="lastname-reg-box" type="text" name="lname" placeholder="Your last name?" value=""
+                                class="form-input-box">
+                        </div>
+                    </div>
+                    <div class="double-box-container">
+                        <div class="register-box">
+                            <label for="dob-reg-box" class="form-label-box">Date of birth</label>
+                            <input id="dob-reg-box" type="date" name="dob" value="" class="form-input-box">
+                        </div>
+                        <div class="register-box">
+                            <label for="phone-reg-box" class="form-label-box">Phone number</label>
+                            <input id="phone-reg-box" type="number" name="phone" placeholder="Your phone number?"
+                                value="" class="form-input-box">
+                        </div>
+                    </div>
+                    <div class="double-box-container">
+                        <div class="register-box">
+                            <label for="#adress-reg-box" class="form-label-box">Adress</label>
+                            <input id="adress-reg-box" type="text" name="adress" placeholder="Your adress?" value=""
+                                class="form-input-box">
+                        </div>
+                    </div>
+
+                    <div class="double-box-container">
+                        <div class="register-box centered-box">
+                            <button type="submit" class="button special-button">Submit</button>
+                        </div>
+                        <div class="register-box centered-box">
+                            <button type="button" class="button special-button js-cancel-button"
+                                id="cancel-reg-btn">Cancel</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!--DEACTIVATION works on click-->
+    <div id="deactivation-confirm-float" class="deactivation-confirm-float js-confirm-float">
+        <div class="confirm-container">
+            <h2 class="login-form-name confirm-prompt">Are you sure?</h2>
+            <div id="double-box-buttons">
+                <button type="button" class="button special-button js-confirm-deactivate">Confirm</button>
+                <button type="button" class="button special-button js-cancel-button">Cancel</button>
+            </div>
+        </div>
+
+    </div>
+    <script type="module" src="../js/script.js"></script>
+</body>
+
+</html>

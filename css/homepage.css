@@ -1,0 +1,185 @@
+/*/ MAIN /*/
+
+
+/* COURSES */
+.card-container{
+    display:flex;
+    padding: 20px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.course-card{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    cursor: pointer;
+    margin: 0px 10px;
+    padding: 10px;
+    border: 2px solid #ebf6ff;
+    border-radius: 5px;
+    max-width: 340px;
+}
+
+.course-card:hover{
+    box-shadow: 0px 0px 20px 10px rgba(0,0,0,0.2);
+    border: 2px solid #fba81f;
+    transform: scale(1.05);
+
+}
+/* COURSE IMAGE */
+
+.image-container-box{
+    display: inline-flex;
+    width: 330px;
+    height: 200px;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.course-image{
+    align-self: center;
+    max-width: 300px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    scale: 1;
+}
+
+@media only screen and (max-width:400px) {
+    .image-container-box{
+        width: 210px;
+        height: 160px;
+        margin-top: 0px;
+    }
+    .course-image{
+        max-height: 150px;
+        max-width: 200px;
+    }
+    .course-card{
+        max-width: 230px;
+    }
+}
+
+/* COURSE BODY */
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+}
+
+ /* COURSE INFO */
+
+.course-name{
+    font-size: 1.1em;
+}
+
+.rating{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rating-stars{
+    display: inline-flex;
+    justify-content: right;
+    text-align: right;
+}
+
+.course-rating{
+    display: inline-block;
+    justify-self: right;
+}
+
+/* COURSE FOOTER */
+
+.card-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.course-footer-box{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.course-load{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+/* REVIEWS */
+
+.customers .wrapper{
+    max-width: 1400px;
+}
+
+.reviews{
+    display: flex;
+}
+
+.review-container{
+    display: flex;
+    padding: 20px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.review-card{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: left;
+    align-content: center;
+    margin: 0px 10px;
+    padding: 10px;
+    border: 2px solid #fba81f;
+    border-radius: 5px;
+    max-width: 400px;
+}
+
+/* REVIEW IMAGE */
+
+.customer-image{
+    align-self: center;
+    height: 100px;
+
+}
+
+.customer-name{
+    display: inline-block;
+    align-self: center;
+}
+
+/* REVIEW BODY */ /*card-body and rating are in course*/
+
+.review-text{
+    display: inline-block;
+    font-size: 17px;
+    font-style: oblique;
+    font-weight: 500;
+    text-align: center;
+}
+blockquote{
+    quotes: "“" "”";
+}
+blockquote::after{
+    content: close-quote;
+}
+
+blockquote::before{
+    content: open-quote;
+}
+
+.reviewed-course{
+    display: inline-block;
+}

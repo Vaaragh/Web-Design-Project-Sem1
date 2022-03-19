@@ -1,0 +1,242 @@
+
+
+.course-profile{
+    margin: 30px;
+}
+
+.course-profile-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 50px 20px;
+}
+
+.course-edit-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 40px 20px;
+    padding: 5px;
+}
+
+.left-info{
+    display: inline-block;
+}
+
+.left-info-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.edit-container{
+    display: inline-flex;
+    min-width: fit-content;
+}
+
+.course-info-image{
+    max-width: 250px;
+    border-radius: 5px;
+}
+
+.course-info-list{
+    display:inline-flex;
+    flex-direction: column;
+    list-style: none;
+    gap: 10px;
+}
+
+.course-info-item{
+    display: inline-block;
+}
+.course-input-item{
+    display: inline-flex;
+    align-items: center;
+}
+
+
+.form-field{
+    justify-content: space-between;
+}
+
+.select-box-menu{
+    background-color: white;
+}
+
+.course-info-type{
+    display: inline-block;
+    background-color: #ebf6ff;
+    min-width: 120px;
+    text-align: right;
+    font-size: 100%;
+}
+
+.course-info-value{
+    display: inline-block;
+    padding-left: 15px;
+}
+
+.course-info-input{
+    font-family: 'Baloo Bhaijaan 2', Helvetica, sans-serif;
+    display: inline-block;
+    margin-left: 15px;
+    width: 100%;
+    padding-left: 5px;
+    padding-right: 5px;
+    height: 2rem;
+    border-radius: 5px;
+    border: 1px solid #fba81f;    
+}
+
+.course-info-checkbox{
+    display: inline-block;
+    width: 100%;
+    height: 1rem;
+}
+
+.course-info-input:focus{
+    outline: #f87537;
+    border: 1px solid #f87537; 
+    background-color: #ebf6ff;
+}
+
+
+#description-area{
+    height: 50%;
+    display: inline-flex;
+    flex-direction: column;
+}
+
+
+#course-cdescription-edit{
+    height: 100%;
+    min-height: 150px;
+
+}
+
+
+.buy-button{
+    display: inline-block;
+    justify-content: center;
+    font-size: 15px;
+    width: 150px;
+}
+
+.button-item{
+    display: inline-flex;
+    gap: 10px;
+}
+
+.flex-button-box{
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.right-info{
+    display: inline-block;
+}
+
+.right-info-container{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.course-user-info{
+    height: 100%;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.course-admin-information{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.course-admin-box{
+    width: 100%;
+    display: inline-flex;
+}
+
+.course-admin-box .course-info-list{
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: smaller;
+    
+}
+
+.admin-info-type{
+    display: inline-block;
+}
+
+.admin-info-value{
+    display: inline-block;
+}
+
+@media only screen and (min-width: 120px) and (max-width: 1200px) {
+    .course-profile{
+        margin: 0;
+    }
+}
+
+
+@media only screen and (min-width: 120px) and (max-width: 560px) {
+    .course-profile-container{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    
+    .course-user-info-top{
+        justify-content: center;
+    }
+}
+.height-stretcher{
+    height: 100%;
+}
+
+@media only screen and (max-width:375px) {
+    .course-input-item{
+        display: inline-flex;
+        align-items: unset;
+        flex-direction: column;
+        
+    }
+    #course-cdescription-edit{
+        height: 200px;
+    }
+    
+    .course-info-input{
+        margin: 0;
+        text-align: center;
+    }
+    .course-info-type{
+        text-align: center;
+    }
+    .course-input-item textarea{
+        text-align: left;
+    }
+    
+}
+
+textarea{
+    font-size: 15px;
+    font-family: 'Baloo Bhaijaan 2', Helvetica, sans-serif;
+}
+
+.course-edit-container{
+    justify-content: space-evenly;
+}
+
+@media only screen and (max-width:650px) {
+    .course-edit-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}

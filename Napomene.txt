@@ -1,0 +1,10 @@
+
+// Otvaranje je moguce samo preko live servera, sa localhost-om zbog CORS polise, inace se slike ne pojavljuju
+
+// Moguce da je prodavnica prazna na pocetku, jer se preuzima iz localStorage, tako da treba otici na neku od stranica za kurseve i dodati ih u korpu, ili ako je vec inicializovan localStorage, sa kljucem 'id' potrebno ga je isprazniti, ili obrisati sadrzaj pod tim kljucem
+
+// Dokumentacija je uradjena mestimicno, i neki delovi su zastareli
+
+// Strukture podataka na firebasu moraju biti ocuvane, ali je moguce dodavati ili brisati nove primere sa novim kategorijama, jezicima, itd.
+
+// Validacija je uradjena protiv praznih polja, samo par primera ocekivanih vrednosti
